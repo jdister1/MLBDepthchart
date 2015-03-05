@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            MLB Depth Charts
+        </title>
+        <!-- ***************External files************************** -->
+        <link rel="stylesheet" href="foundation/css/foundation.css" />
+        <!--<link rel="stylesheet" href="css/foundation-icons/foundation-icons.css" />-->
+        <!-- *******************Project files*********************** -->
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+
+        <!-- makes responsive on mobile viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+      <div id="test"></div>
+      <div id="navBar" class="icon-bar three-up">
+        <a class="item">
+        </a>
+        <a class="item">
+        <h2>MLB Depth Charts</h2>
+        </a>
+        <a class="item">
+
+        </a>
+      </div>
+
+      <div id="search"class="row">
+          <div class="large-8 large-centered columns">
+            <button href="#" id="teamNameDropdown" data-dropdown="teamNames" aria-controls="drop1" aria-expanded="false" class="button expand dropdown">Select a Team</button><br>
+            <ul id="teamNames" data-dropdown-content class="f-dropdown" aria-hidden="true" tabindex="-1">
+
+            </ul>
+            <button href="#" id="teamNameNationalDropdown" data-dropdown="teamNamesNational" aria-controls="drop1" aria-expanded="false" class="button expand dropdown">National League</button><br>
+            <ul id="teamNamesNational" data-dropdown-content class="f-dropdown" aria-hidden="true" tabindex="-1">
+
+            </ul>
+          </div>
+      </div>
+      <div class="row">
+        <div id ="positionResults"class="large-4 large-centered columns">
+        </div>
+      </div>
+    </body>
+    <!-- includes for foundatiton and jquery -->
+   <script src="foundation/js/vendor/jquery.js"></script>
+   <script src="foundation/js/foundation.min.js"></script>
+   <script src="script/spin.min.js"></script>
+   <script type="text/javascript" src="script/cross_domain.js"></script>
+   <script type="text/javascript" src="script/script.js"></script>
+
+</html>

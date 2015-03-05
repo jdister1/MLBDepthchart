@@ -1,0 +1,34 @@
+body{
+
+}
+
+#navBar{
+  background-color: red;
+  border-bottom: 4px solid blue;
+  margin-bottom: 20px;
+}
+
+#navBar > .item h2{
+  color:white;
+  font-size: 1em;
+}
+
+#navBar > .item:hover{
+  background-color: red;
+  cursor:pointer;
+}
+
+#teamNameDropdown{
+  background-color: blue;
+}
+
+#positionResults{
+  margin-top: 10px;
+}
+
+.pricing-table{
+  border: 1px solid black;
+}
+.pricing-table > .title{
+  background-color:red;
+}
